@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flexbox;
+    background-color: beige;
+    height: 100%;
+}
+header{
+    height: 60px;
+    background-color: cadetblue;
+    padding: 15px;
+    text-align: center;
+}
+header>h1{
+    color: wheat;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    height: 15px;
+    background-color: burlywood;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+    color: rgb(65, 3, 59);
+}
+nav a:hover{
+    background-color: rgb(29, 49, 9);
+    color:burlywood;
+}
+main{
+    height: 70%;
+    background-color: chocolate;
+    text-align: center;
+    height: max-content;
+}
+div{
+    display: block;
+    margin: 30px;
+    float: left;
+    width: 25%;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: dashed;
+    height: max-content;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: darkgrey;
+}
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}

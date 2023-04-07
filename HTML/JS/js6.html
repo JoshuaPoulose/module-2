@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var person = new Object();
+        person.name="Joshua";
+        person.age=67;
+        person.city="honk kong";
+        var data={name:"Joshua",age:67,city:"honk kong"};
+        console.log(person);
+
+       
+        console.log(data.name);
+        console.log(data.age);
+        console.log(data.city);
+        data.city="boos";
+        console.log(data.city);
+
+        var pets=[
+        {name:"Bruno",type:"dog", breed:"Golden retriever"},
+        {name:"Katerina",type:"cat",breed:"Persian",age:"2"},
+        {name:"Daisy", type:"Butterfly", breed:"wild"}
+       ];
+       console.log(pets);
+       pets[1]['age']=3;
+       console.log(pets[1]);
+
+       pets.push({name:"spirit",type:"horse",age:"4"});
+       console.log(pets);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

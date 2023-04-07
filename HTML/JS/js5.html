@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-I</title>
+    <script>
+        let data =new Array();
+        //let info=[]; getting elements
+        let info=["goo boy",10,"$10",function math() { console.log('hello');},10,10==10];
+        //info[3].math();
+        console.log(info[3]);
+
+        info.push("mango");
+        console.log(info);
+
+        info.pop();
+        console.log(info);
+        
+        let len=info.unshift("java script");//adds an element at the begining of the arrray and returns the new length
+        console.log("size of info="+len)
+        console.log(info);
+        console.log(info.length);
+
+        let infocopy=info;
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

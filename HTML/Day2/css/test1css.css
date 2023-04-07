@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: rgb(166, 184, 241);
+    border-style: solid;
+    border-color: rgb(29, 56, 3);
+    border-width: 3px;
+    background-color: rgb(192, 236, 236);
+}
+div{
+    width: auto;
+    height: auto;
+    border: 3px;
+    border-style: groove;
+    
+    padding: 20px;
+    margin: 10px;
+}
+span{
+    color: darkorange;
+}
+#p-1>span{
+    color: darkmagenta;
+}
+#p-3>span{
+    color: rgb(155, 148, 247);
+}
+#first{
+    border-color: rgb(228, 18, 18);
+    border-style: dotted;
+}
+#third{
+    border-color: gold;
+}
+#second{
+    border-color: blue;
+}
+.first-para{
+    font-size: large;
+    color:rgb(107, 6, 6);
+    background-color: beige;
+    font-style: italic;
+}
+.sec-para{
+    font-size: large;
+    color:rgb(10, 68, 3);
+    background-color: beige;
+}
+.third-para{
+    font-size: large;
+    color:rgb(77, 45, 4);
+    background-color: beige;
+    font-style: oblique;
+}
+#first>h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(231, 210, 186);
+}
+#second>h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(83, 10, 10);
+}
+#third>h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(57, 88, 26);
+}
